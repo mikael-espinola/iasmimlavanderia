@@ -6,6 +6,7 @@ import UserCad from "../components/userCad/UserCad";
 import Services from "../components/service/Service"
 import UserLogin from "../components/userLogin/UserLogin"
 import About from "../components/info/About"
+import Cad from "../components/userCad/Cad";
 
 
 export default props => (
@@ -15,6 +16,7 @@ export default props => (
         <Route path="/login" element={<UserLogin />} />
         <Route path="/services" element={<Services />} />
         <Route path="/info" element={<About />} />
+        <Route path="/cadastro" element={<Cad />} />
         <Route path="*" element={<Home />} />
     </ Routes>
 );

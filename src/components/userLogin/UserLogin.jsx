@@ -73,10 +73,11 @@ export default class userLogin extends Component {
                     </div>
 
                     <div className="col-12 d-flex justify-content-start">
-                    <button className="btn btn-light"
-                            onClick={e => alert("In construction!")}>
-                            Quer se cadastrar?
-                        </button>
+                        <a href="/cadastro">
+                            <button className="btn btn-light">
+                                Quer se cadastrar?
+                            </button>
+                        </a>
                     </div>
                 </div>
             </div>
