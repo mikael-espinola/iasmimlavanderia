@@ -18,6 +18,23 @@ A aplicação consiste na disponibilização de abas com informações tais como
 - HTML 
 - CSS 
 
+## Layouts
+
+- Home
+![Web 1](https://github.com/mikael-espinola/iasmimlavanderia/blob/main/src/assets/layouts/home.png)
+
+- Serviços
+![Web 2](https://github.com/mikael-espinola/iasmimlavanderia/blob/main/src/assets/layouts/servicos.png)
+
+- Info
+![Web 3](https://github.com/mikael-espinola/iasmimlavanderia/blob/main/src/assets/layouts/sobre.png)
+
+- Login
+![Web 4](https://github.com/mikael-espinola/iasmimlavanderia/blob/main/src/assets/layouts/login.png)
+
+- Cadastro
+![Web 5](https://github.com/mikael-espinola/iasmimlavanderia/blob/main/src/assets/layouts/cadastrar.png)
+
 # Autor
 
 Mikael da Costa Espínola
