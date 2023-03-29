@@ -1,0 +1,76 @@
+@import url(https://fonts.googleapis.com/css2?family=Comfortaa&family=Poppins:wght@100;300;500&display=swap);
+
+.cards{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    margin: 0 2em;
+}
+
+.cards .card {
+    background-color: #86ebab;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 38px;
+
+}
+.cards .card .icon {
+    align-content: center;
+}
+.cards .card .icon img {
+    width: 6em;
+    height: 7em;    
+}
+
+.cards .card .icon .text {
+    display: flex;
+    flex-direction: row;
+}
+
+section.card h3 {
+    margin: 0.3em 0;
+}
+
+ section.card span {
+    font-weight: 400;
+    max-width: 240px;
+    font-size: 80%;
+}
+
+section.card span.preco-de {
+    text-decoration: line-through;
+}
+
+section.card span.preco-por {
+    color: red;
+    font-size: 100%;
+    font-weight: 600;
+
+}
+
+section.card span.preco-de{
+    font-weight: 350;
+}
+
+section.card button {
+    padding: 0.5em 1em;
+    text-transform: uppercase;
+    border-radius: 12px;
+    border: 25%;
+    cursor: pointer;
+    font-size: 80%;
+    font-weight: 800;
+    margin-bottom: 0.5em;
+
+    background: linear-gradient(to right, rgba(91, 5, 125, 0.579), rgba(189, 116, 217, 0.579));
+}
+
+@media(max-width: 780px){
+    .cards{
+        display: grid;
+        grid-template-rows: auto auto auto;
+        gap: 10px;
+        margin: 0 2em;
+    }
+}

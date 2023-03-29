@@ -1,0 +1,21 @@
+@import url(https://fonts.googleapis.com/css2?family=Comfortaa&family=Poppins:wght@100;300;500&display=swap);
+
+* {
+    font-family: "Comfortaa";
+}
+
+.display-2 {
+    font-size: 3em;
+    display: flex;
+}
+
+.apresentacao, .historia2 {
+    font-size: 1.2em;
+}
+
+.info2 {
+    justify-content: end;
+    padding-left: 35em;
+    padding-top: 0.9em;
+    
+}
